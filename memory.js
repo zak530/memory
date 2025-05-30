@@ -46,7 +46,6 @@ function creaMatrice(NCarte) {
 
 
 
-
 //funzione che mi controlla le celle
 function confronta(matrice){
 for(let i=0;i<matrice.length;i++){
@@ -76,8 +75,7 @@ console.log(x)
         let riga = document.createElement("tr")
         for (let j = 0; j <y.length; j++) {
             let cell = document.createElement("td")
-            cell.textContent = y[i][j]
-            cell.style.appearance="red" 
+            cell.textContent = y[i][j] 
             riga.appendChild(cell)
         }
         table.appendChild(riga)
